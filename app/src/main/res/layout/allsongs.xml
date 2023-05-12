@@ -28,23 +28,23 @@
 
     </LinearLayout>
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:layout_gravity="start">
 
-        <LinearLayout
+        <View
+            android:id="@+id/divider"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="20dp" />
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="drawer itm" />
-        </LinearLayout>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView3"
+            android:name="ca.skyfire.whydneaudio.SideMenuFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    </FrameLayout>
+    </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
