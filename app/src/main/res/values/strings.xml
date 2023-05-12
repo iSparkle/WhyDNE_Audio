@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">WhyDNE Audio</string>
+		<string name="menu_allalbums">Albums</string>
+		<string name="menu_allartists">Artists</string>
     <string name="menu_allfolders">All Folders</string>
     <string name="menu_allsongs">All Songs</string>
     <string name="menu_alltags">All Tags</string>
+		<string name="menu_faq">FAQ</string>
+		<string name="menu_privacy">Privacy</string>
+		<string name="menu_settings">Settings</string>
 </resources>

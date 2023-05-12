@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="SideBarMenu">
+        <item name="android:paddingRight">72pt</item>
+    </style>
+    <style name="SideBarMenuItem" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">5pt</item>
+        <item name="android:paddingBottom">5pt</item>
+        <item name="android:paddingLeft">12pt</item>
+    </style>
+</resources>
