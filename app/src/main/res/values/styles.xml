@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <style name="SideBarMenu">
+        <item name="android:background">@drawable/background_winter_day_2</item>
         <item name="android:paddingRight">72pt</item>
     </style>
     <style name="SideBarMenuItem" parent="Widget.AppCompat.TextView">
