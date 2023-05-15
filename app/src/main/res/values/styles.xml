@@ -3,6 +3,14 @@
     <style name="SideBarMenu">
         <item name="android:background">@drawable/background_winter_day_2</item>
         <item name="android:paddingRight">72pt</item>
+        <item name="android:opacity">opaque</item>
+        <item name="android:layout_marginLeft">-10dp</item>
+    </style>
+    <style name="SideBarMenu_SD">
+        <item name="android:background">@drawable/background_summer_day_2</item>
+        <item name="android:paddingRight">72pt</item>
+        <item name="android:opacity">opaque</item>
+        <item name="android:layout_marginLeft">-10dp</item>
     </style>
     <style name="SideBarMenuItem" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">20sp</item>
