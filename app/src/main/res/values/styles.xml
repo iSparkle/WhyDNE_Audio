@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-	<style name="MainScreen_SD">
-		<item name="android:background">@drawable/background_summer_day_2</item>
+	<style name="MainScreen_WD">
+		<item name="android:background">@drawable/background_winter_day_1</item>
 		<item name="android:opacity">opaque</item>
 	</style>
-	<style name="SideBarMenu">
-		<item name="android:background">@drawable/background_winter_day_2</item>
-		<item name="android:paddingRight">72pt</item>
+	<style name="MainScreen_SD">
+		<item name="android:background">@drawable/background_summer_day_1</item>
 		<item name="android:opacity">opaque</item>
-		<item name="android:layout_marginLeft">-10dp</item>
+	</style>
+	<style name="SideBarMenu_WD">
+		<item name="android:background">@drawable/background_winter_day_2</item>
+		<item name="android:paddingRight">@dimen/sideMenuPaddingRight</item>
+		<item name="android:opacity">opaque</item>
+		<item name="android:layout_marginLeft">@dimen/sideMenuMarginLeft</item>
 	</style>
 	<style name="SideBarMenu_SD">
 		<item name="android:background">@drawable/background_summer_day_2</item>
-		<item name="android:paddingRight">72pt</item>
+		<item name="android:paddingBottom">@dimen/sideMenuPaddingBottom</item>
+		<item name="android:paddingRight">@dimen/sideMenuPaddingRight</item>
+		<item name="android:paddingTop">@dimen/sideMenuPaddingTop</item>
 		<item name="android:opacity">opaque</item>
-		<item name="android:layout_marginLeft">-10dp</item>
+		<item name="android:layout_marginLeft">@dimen/sideMenuMarginLeft</item>
 	</style>
-	<style name="SideBarMenuItem" parent="Widget.AppCompat.TextView">
+	<style name="SideBarMenuItem_WD" parent="Widget.AppCompat.TextView">
 		<item name="android:textSize">@dimen/sideMenuItemTextSize</item>
+		<item name="android:paddingTop">@dimen/sideMenuItemPaddingTop</item>
+		<item name="android:paddingBottom">@dimen/sideMenuItemPaddingBottom</item>
+		<item name="android:paddingLeft">@dimen/sideMenuItemPaddingLeft</item>
+	</style>
+	<style name="SideBarMenuItem_SD" parent="Widget.AppCompat.TextView">
+		<item name="android:textColor">@color/menuItem_SD</item>
+		<item name="android:textSize">@dimen/sideMenuItemTextSize_SD</item>
 		<item name="android:paddingTop">@dimen/sideMenuItemPaddingTop</item>
 		<item name="android:paddingBottom">@dimen/sideMenuItemPaddingBottom</item>
 		<item name="android:paddingLeft">@dimen/sideMenuItemPaddingLeft</item>

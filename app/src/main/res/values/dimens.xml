@@ -2,7 +2,12 @@
 <resources>
 	<dimen name="text_margin">16dp</dimen>
 	<dimen name="sideMenuMarginTop">40dp</dimen>
+	<dimen name="sideMenuMarginLeft">-10dp</dimen>
+	<dimen name="sideMenuPaddingBottom">12pt</dimen>
+	<dimen name="sideMenuPaddingRight">72pt</dimen>
+	<dimen name="sideMenuPaddingTop">8pt</dimen>
 	<dimen name="sideMenuItemTextSize">20sp</dimen>
+	<dimen name="sideMenuItemTextSize_SD">25sp</dimen>
 	<dimen name="sideMenuItemPaddingTop">5pt</dimen>
 	<dimen name="sideMenuItemPaddingBottom">5pt</dimen>
 	<dimen name="sideMenuItemPaddingLeft">12pt</dimen>

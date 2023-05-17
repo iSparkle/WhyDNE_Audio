@@ -3,5 +3,6 @@
 
 	<attr name="mainScreenBackground" format="reference" />
 	<attr name="sideMenuBackground" format="reference" />
+	<attr name="sideMenuItem" format="reference" />
 
 </resources>

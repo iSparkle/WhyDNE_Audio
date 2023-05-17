@@ -10,56 +10,56 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/txtAllSongs"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_allsongs" />
 
     <TextView
         android:id="@+id/txtAllTags"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_alltags" />
 
     <TextView
         android:id="@+id/txtAllFolders"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_allfolders" />
 
     <TextView
         android:id="@+id/txtAllArtists"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_allartists" />
 
     <TextView
         android:id="@+id/txtAllAlbums"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_allalbums" />
 
     <TextView
         android:id="@+id/txtFaq"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_faq" />
 
     <TextView
         android:id="@+id/txtPrivacy"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_privacy" />
 
     <TextView
         android:id="@+id/txtSettings"
-        style="@style/SideBarMenuItem"
+        style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
