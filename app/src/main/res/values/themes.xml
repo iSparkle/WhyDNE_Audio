@@ -13,6 +13,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="sideMenuBackground">@style/SideBarMenu</item>
+        <item name="mainScreenBackground">@style/MainScreen_SD</item>
     </style>
     <style name="Theme.WhyDNESummerDay" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
@@ -27,5 +28,6 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="sideMenuBackground">@style/SideBarMenu_SD</item>
+        <item name="mainScreenBackground">@style/MainScreen_SD</item>
     </style>
 </resources>
