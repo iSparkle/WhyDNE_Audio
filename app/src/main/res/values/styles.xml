@@ -8,6 +8,18 @@
 		<item name="android:background">@drawable/background_summer_day_1</item>
 		<item name="android:opacity">opaque</item>
 	</style>
+	<style name="NowPlaying_WD">
+		<item name="android:background">@drawable/background_winter_day_2</item>
+		<item name="android:paddingRight">@dimen/nowPlayingPaddingRight</item>
+		<item name="android:opacity">opaque</item>
+		<item name="android:layout_marginLeft">@dimen/nowPlayingMarginLeft</item>
+	</style>
+	<style name="NowPlaying_SD">
+		<item name="android:background">@drawable/background_summer_day_2</item>
+		<item name="android:paddingRight">@dimen/nowPlayingPaddingRight</item>
+		<item name="android:opacity">opaque</item>
+		<item name="android:layout_marginLeft">@dimen/nowPlayingMarginLeft</item>
+	</style>
 	<style name="SideBarMenu_WD">
 		<item name="android:background">@drawable/background_winter_day_2</item>
 		<item name="android:paddingRight">@dimen/sideMenuPaddingRight</item>

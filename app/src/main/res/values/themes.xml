@@ -13,6 +13,7 @@
 		<item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
 		<!-- Customize your theme here. -->
 		<item name="mainScreenBackground">@style/MainScreen_WD</item>
+		<item name="nowPlayingBackground">@style/NowPlaying_WD</item>
 		<item name="sideMenuBackground">@style/SideBarMenu_WD</item>
 		<item name="sideMenuItem">@style/SideBarMenuItem_WD</item>
 	</style>
@@ -29,6 +30,7 @@
 		<item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
 		<!-- Customize your theme here. -->
 		<item name="mainScreenBackground">@style/MainScreen_SD</item>
+		<item name="nowPlayingBackground">@style/NowPlaying_SD</item>
 		<item name="sideMenuBackground">@style/SideBarMenu_SD</item>
 		<item name="sideMenuItem">@style/SideBarMenuItem_SD</item>
 	</style>
