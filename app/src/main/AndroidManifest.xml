@@ -1,36 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+	xmlns:tools="http://schemas.android.com/tools">
 
-    <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.WhyDNEAudio"
-        tools:targetApi="31">
-        <activity
-            android:name=".SettingsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_settings" />
-        <activity
-            android:name=".AllSongsActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+	<application
+		android:allowBackup="true"
+		android:dataExtractionRules="@xml/data_extraction_rules"
+		android:fullBackupContent="@xml/backup_rules"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/Theme.WhyDNEAudio"
+		tools:targetApi="31">
+		<activity
+			android:name=".PrivacyActivity"
+			android:exported="false" />
+		<activity
+			android:name=".FAQActivity"
+			android:exported="false" />
+		<activity
+			android:name=".AllAlbumsActivity"
+			android:exported="false" />
+		<activity
+			android:name=".AllArtistsActivity"
+			android:exported="false" />
+		<activity
+			android:name=".SettingsActivity"
+			android:exported="false"
+			android:label="@string/title_activity_settings" />
+		<activity
+			android:name=".AllSongsActivity"
+			android:exported="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".AllFoldersActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AllTagsActivity"
-            android:exported="false" />
-    </application>
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".AllFoldersActivity"
+			android:exported="false" />
+		<activity
+			android:name=".AllTagsActivity"
+			android:exported="false" />
+	</application>
 
 </manifest>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:onClick="btnAllFoldersClick"
     android:orientation="vertical"
     tools:context=".SideMenuFragment">
 
@@ -13,6 +14,8 @@
         style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="btnAllSongsClick"
         android:text="@string/menu_allsongs" />
 
     <TextView
@@ -20,6 +23,9 @@
         style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="auto"
+        android:onClick="btnAllTagsClick"
         android:text="@string/menu_alltags" />
 
     <TextView
@@ -27,6 +33,8 @@
         style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="btnAllFoldersClick"
         android:text="@string/menu_allfolders" />
 
     <TextView
@@ -34,6 +42,8 @@
         style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="btnAllArtistsClick"
         android:text="@string/menu_allartists" />
 
     <TextView
@@ -41,6 +51,8 @@
         style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="btnAllAlbumsClick"
         android:text="@string/menu_allalbums" />
 
     <TextView
@@ -48,6 +60,8 @@
         style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="btnFAQClick"
         android:text="@string/menu_faq" />
 
     <TextView
@@ -55,6 +69,8 @@
         style="?sideMenuItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="btnPrivacyClick"
         android:text="@string/menu_privacy" />
 
     <TextView

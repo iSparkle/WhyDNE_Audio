@@ -23,6 +23,26 @@ public class StandardScreen extends AppCompatActivity {
 
 	}
 
+	public void btnAllAlbumsClick(View v) {
+
+		if (this.getClass() != AllAlbumsActivity.class) {
+			Intent intent = new Intent(this, AllAlbumsActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+			startActivity(intent);
+		}
+
+	}
+
+	public void btnAllArtistsClick(View v) {
+
+		if (this.getClass() != AllArtistsActivity.class) {
+			Intent intent = new Intent(this, AllArtistsActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+			startActivity(intent);
+		}
+
+	}
+
 	public void btnAllSongsClick(View v) {
 
 		if (this.getClass() != AllSongsActivity.class) {
@@ -47,6 +67,26 @@ public class StandardScreen extends AppCompatActivity {
 
 		if (this.getClass() != AllFoldersActivity.class) {
 			Intent intent = new Intent(this, AllFoldersActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+			startActivity(intent);
+		}
+
+	}
+
+	public void btnFAQClick(View v) {
+
+		if (this.getClass() != FAQActivity.class) {
+			Intent intent = new Intent(this, FAQActivity.class);
+			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+			startActivity(intent);
+		}
+
+	}
+
+	public void btnPrivacyClick(View v) {
+
+		if (this.getClass() != PrivacyActivity.class) {
+			Intent intent = new Intent(this, PrivacyActivity.class);
 			intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
 			startActivity(intent);
 		}
