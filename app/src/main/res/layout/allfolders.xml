@@ -14,18 +14,18 @@
 		android:visibility="visible"
 		tools:visibility="visible">
 
-		<androidx.fragment.app.FragmentContainerView
-			android:id="@+id/titlebar_tabs"
-			android:name="ca.skyfire.whydneaudio.MainTabs"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			tools:layout="@layout/fragment_main_tabs" />
+			<androidx.fragment.app.FragmentContainerView
+				android:id="@+id/titlebar_tabs"
+				android:name="ca.skyfire.whydneaudio.MainTabs"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				tools:layout="@layout/fragment_main_tabs" />
 
-		<TextView
-			android:id="@+id/textView3"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:text="All folders" />
+			<TextView
+				android:id="@+id/textView3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="All folders" />
 
 	</LinearLayout>
 
@@ -45,6 +45,27 @@
 			android:name="ca.skyfire.whydneaudio.SideMenuFragment"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_gravity="end">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:orientation="vertical">
+
+			<androidx.fragment.app.FragmentContainerView
+				android:id="@+id/fragmentContainerView4"
+				android:name="ca.skyfire.whydneaudio.NowPlayingFragment"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
 
 	</LinearLayout>
 
