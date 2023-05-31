@@ -7,7 +7,7 @@
 	android:layout_height="match_parent"
 	android:gravity="center_vertical"
 	android:orientation="vertical"
-	tools:context=".NowPlayingFragment">
+	tools:context=".fragments.NowPlayingFragment">
 
 	<!-- TODO: Update blank fragment layout -->
 	<ImageView

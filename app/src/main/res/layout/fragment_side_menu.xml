@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:onClick="btnAllFoldersClick"
     android:orientation="vertical"
-    tools:context=".SideMenuFragment">
+    tools:context=".fragments.SideMenuFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

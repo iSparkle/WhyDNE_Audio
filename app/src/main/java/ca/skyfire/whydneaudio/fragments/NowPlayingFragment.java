@@ -1,8 +1,9 @@
-package ca.skyfire.whydneaudio;
+package ca.skyfire.whydneaudio.fragments;
 
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import ca.skyfire.whydneaudio.R;
 
 import android.view.LayoutInflater;
 import android.view.View;

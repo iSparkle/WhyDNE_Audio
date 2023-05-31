@@ -21,11 +21,11 @@
 				android:layout_height="wrap_content"
 				tools:layout="@layout/fragment_main_tabs" />
 
-			<TextView
-				android:id="@+id/textView"
-				android:layout_width="match_parent"
-				android:layout_height="wrap_content"
-				android:text="Song List" />
+		<LinearLayout
+			android:id="@+id/songList"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"></LinearLayout>
 
 	</LinearLayout>
 
@@ -42,7 +42,7 @@
 
 			<androidx.fragment.app.FragmentContainerView
 				android:id="@+id/fragmentContainerView3"
-				android:name="ca.skyfire.whydneaudio.SideMenuFragment"
+				android:name="ca.skyfire.whydneaudio.fragments.SideMenuFragment"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content" />
 
@@ -62,7 +62,7 @@
 
 			<androidx.fragment.app.FragmentContainerView
 				android:id="@+id/fragmentContainerView4"
-				android:name="ca.skyfire.whydneaudio.NowPlayingFragment"
+				android:name="ca.skyfire.whydneaudio.fragments.NowPlayingFragment"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content" />
 		</LinearLayout>

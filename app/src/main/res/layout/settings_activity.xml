@@ -23,7 +23,7 @@
 
 			<androidx.fragment.app.FragmentContainerView
 				android:id="@+id/fragmentContainerView3"
-				android:name="ca.skyfire.whydneaudio.SideMenuFragment"
+				android:name="ca.skyfire.whydneaudio.fragments.SideMenuFragment"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content" />
 
