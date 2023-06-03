@@ -5,7 +5,7 @@
 		<item name="android:opacity">opaque</item>
 	</style>
 	<style name="MainScreen_SD">
-		<item name="android:background">@drawable/background_summer_day_1</item>
+		<item name="android:background">@drawable/sun_layers_summer_day</item>
 		<item name="android:opacity">opaque</item>
 	</style>
 	<style name="NowPlaying_WD">
